@@ -6,40 +6,22 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int[] testArray = new[] { 1, 2, 3, };
-        int i = 0;
+        int[] testArray = new[] { 13, 72, 35, 45};
 
-        while (i < testArray.Length)
-        {
-            Console.WriteLine(testArray[i]);
-            i++;
-            //continue;
-            //break;
-        }
+        var random = new Random();
+        var value = random.Next(5);
 
-        i = 0;
-        do 
-        {
-            Console.WriteLine(testArray[i]);
-            i++;
-        } while (i < testArray.Length);
+        Console.WriteLine("Guess the number trom 1 to 5");
 
-        int[] array = { 1, 2, 3, 4 };
-        foreach (int number in array)
+        int result = 0;
+        do
         {
-            // code
-            // Забивается память, лучше for
-        }
-
-        int[] array1 = { 1, 2, 3, 4 };
-        for (int number = 0; number < array1.Length; number++)
-        {
-            // code
-        }
-
-        for (int number = array1.Length - 1; number >= 0; number--)
-        {
-            // code
-        }
+            if (!Int32.TryParse(Console.ReadLine(), out result))
+            {
+                Console.WriteLine("Stop cheating!");
+            }            
+        } while (result != value);
+        Console.WriteLine("You won!");
     }
+
 }
