@@ -1,27 +1,45 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Collections.Immutable;
+using System.Runtime.ExceptionServices;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        int[] testArray = new[] { 13, 72, 35, 45};
-
         var random = new Random();
-        var value = random.Next(5);
+        int[] player1 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
+        int[] player2 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
 
-        Console.WriteLine("Guess the number trom 1 to 5");
+        int player1Score = 0;
+        int player2Score = 0;
 
-        int result = 0;
-        do
+        for (int i = 0; i < player1.Length; i++)
         {
-            if (!Int32.TryParse(Console.ReadLine(), out result))
+            Console.WriteLine(player1[i] + " vs " + player2[i]);
+            if (player1[i] > player2[i])
             {
-                Console.WriteLine("Stop cheating!");
-            }            
-        } while (result != value);
-        Console.WriteLine("You won!");
+                player1Score++;
+            }
+            else if (player1[i] < player2[i])
+            {
+                player2Score++;
+            }
+        }
+
+        if (player1Score > player2Score)
+        {
+            Console.WriteLine("Player 1 won!");
+        }
+        else if (player1Score < player2Score)
+        {
+            Console.WriteLine("Player 2 won!");
+        }
+        else
+        {
+            Console.WriteLine("No winners!");
+        }
+
     }
 
 }
