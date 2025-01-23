@@ -6,24 +6,40 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //int[] testArray = new[] { 1, 2, 3, };
-        //Array.Sort(testArray, 0 , 3); // сортировка
-        //Array.Reverse(testArray); //  наоборот        
-        //var a = Array.Empty<int>(); // создание пустого массива
-        //testArray.Length // длина
-        int[] array1 = { 5546, 342, 4545 };
-        float[] array2 = { 12.22, 34.56, 45.65 };
+        int[] testArray = new[] { 1, 2, 3, };
+        int i = 0;
 
-        var result = Array.CreateInstance(typeof(float), 4);
-        result.SetValue(array1[0] * array2[0], 0);
-        result.SetValue(array1[0] / array2[0], 1);
+        while (i < testArray.Length)
+        {
+            Console.WriteLine(testArray[i]);
+            i++;
+            //continue;
+            //break;
+        }
 
-        Console.WriteLine(result.GetValue(0));
-        Console.WriteLine(result.GetValue(1));
+        i = 0;
+        do 
+        {
+            Console.WriteLine(testArray[i]);
+            i++;
+        } while (i < testArray.Length);
 
-        Array.Sort(array2);
+        int[] array = { 1, 2, 3, 4 };
+        foreach (int number in array)
+        {
+            // code
+            // Забивается память, лучше for
+        }
 
-        Console.WriteLine(array2.Max());
-        Console.WriteLine(array2.Min());
+        int[] array1 = { 1, 2, 3, 4 };
+        for (int number = 0; number < array1.Length; number++)
+        {
+            // code
+        }
+
+        for (int number = array1.Length - 1; number >= 0; number--)
+        {
+            // code
+        }
     }
 }
