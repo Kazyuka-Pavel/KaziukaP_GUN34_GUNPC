@@ -1,45 +1,52 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Collections.Immutable;
-using System.Runtime.ExceptionServices;
+using ConsoleApp1;
+using System.Xml;
+
+class Test
+{
+    public int Field = 50;
+    private float property;
+
+    public float Property { get { return property; } set => property = value; }
+
+    public void SomeMethod1(float number)
+    {
+        property = number;
+    }
+
+    public int SomeMethod2()
+    {
+        return 1;
+    }
+
+    public Test() { }
+
+    public Test(int number) => Field = number;
+
+    public Test(float number) 
+    {
+        property = number;
+    } //конструктор по умолчанию 
+
+}
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        var random = new Random();
-        int[] player1 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
-        int[] player2 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
+        Console.WriteLine("Hello word!");   
 
-        int player1Score = 0;
-        int player2Score = 0;
+        var object1 = new Test();
+        var object2 = new Test(123);
+        var object3 = new Test(123f);
+        var object4 = new TestClass();
 
-        for (int i = 0; i < player1.Length; i++)
-        {
-            Console.WriteLine(player1[i] + " vs " + player2[i]);
-            if (player1[i] > player2[i])
-            {
-                player1Score++;
-            }
-            else if (player1[i] < player2[i])
-            {
-                player2Score++;
-            }
-        }
-
-        if (player1Score > player2Score)
-        {
-            Console.WriteLine("Player 1 won!");
-        }
-        else if (player1Score < player2Score)
-        {
-            Console.WriteLine("Player 2 won!");
-        }
-        else
-        {
-            Console.WriteLine("No winners!");
-        }
-
+        Console.WriteLine(" object 1 field value = {0} and object 2 = {1}", object1.Field, object2.Field );
+        Console.WriteLine(" object 1 Property value = {0} and object 2 = {1}", object1.Property, object2.Property);
+        object1.SomeMethod1(10);
+        var valSomeMethod1 = object1.SomeMethod2();
+        Console.WriteLine(valSomeMethod1);
     }
 
 }
