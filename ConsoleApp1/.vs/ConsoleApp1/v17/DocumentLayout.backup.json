@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{78E80D14-5143-4546-9102-0F55EBDDA828}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78E80D14-5143-4546-9102-0F55EBDDA828}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78E80D14-5143-4546-9102-0F55EBDDA828}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78E80D14-5143-4546-9102-0F55EBDDA828}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestClass.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\TestClass.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\TestClass.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\TestClass.cs",
-              "RelativeToolTip": "ConsoleApp1\\TestClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T21:26:14.732Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,7 +24,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA4wDAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T19:45:43.718Z",
               "EditorCaption": ""
