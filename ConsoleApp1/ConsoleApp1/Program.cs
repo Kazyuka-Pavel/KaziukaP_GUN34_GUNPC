@@ -10,126 +10,73 @@ internal class Node
     public Node NextNode;
 }
 
+internal class Unit
+{
+    public string Name { get; set; }
+
+    public Dictionary<int, string> Abilities = new Dictionary<int, string>() 
+    { 
+        {1,"Fireball" },
+        {2,"Thunderbolt" }
+    };
+}
+
+internal class Order
+{
+    public int OrderValue;
+}
+
+internal class TaskUnit 
+{
+    public int Value;
+    public void Redo() { Console.WriteLine("Redo " + Value); }
+}
+
+
 internal class Program
 {
     private static void Main(string[] args)
     {
-        //Списки
-        var list = new List<int>() {1,2,3,4,5};
-        list.Add(-2);
-        list.Remove(1);
-        list.Reverse();
+        // Примитивная игра 
 
-        for (int i = 0; i < list.Count; i++)
+        var army = new List<Unit>() { new Unit() { Name = "Orc"} , new Unit() { Name = "Elf" } };
+        var order1 = new Order() { OrderValue = 1 };
+        var order2 = new Order() { OrderValue = 2 };
+
+        var task1 = new TaskUnit() { Value = 1 };
+        var task2 = new TaskUnit() { Value = 2 };
+
+        Console.WriteLine("My army");
+        foreach(var unit in army)
         {
-            Console.WriteLine(list[i]);
+            Console.WriteLine(unit.Name);
+            Console.WriteLine("1 - fireball, 2 - thunderbolt");
+            var spell = int.Parse(Console.ReadLine());
+            if (unit.Abilities.TryGetValue(spell, out var ability))
+            {
+                Console.WriteLine(ability);
+            }
         }
 
-        Console.WriteLine();
+        var orderQueue = new Queue<Order>();
+        orderQueue.Enqueue(order1);
+        orderQueue.Enqueue(order2);
 
-        //Связанный список
-        var linkedList = new LinkedList<int>();
+        var stackTask = new Stack<TaskUnit>();
+        stackTask.Push(task1);
+        stackTask.Push(task2);
 
-        //Связанный список через класс
-        var node1 = new Node() { Value = 1 };
-        var node2 = new Node() { Value = 2 };
-        var node3 = new Node() { Value = 3 };
-
-        node1.NextNode = node2;
-        node2.NextNode = node3;
-
-        var next = node1;
-        while (next != null)
+        while (orderQueue.Count > 0)
         {
-            Console.WriteLine(next.Value);
-            next = next.NextNode;
+            Console.WriteLine("Completed task = " + orderQueue.Dequeue().OrderValue);
         }
 
-        Console.WriteLine();
+        Console.WriteLine("1 - cancel, 2 - continue");
+        var result = int.Parse(Console.ReadLine());
+        if (result == 1)
+        { 
+            stackTask.Pop().Redo();
 
-        // Стэк
-        // Послежний элемент выходит первым
-        var stack = new Stack<int>();
-        stack.Push(1); //Добавление в стэк
-        stack.Push(2);
-        stack.Push(3);
-
-        while(stack.Count > 0)
-        {
-            Console.WriteLine(stack.Pop()); //Извлечение из стэка
-        }
-
-        Console.WriteLine();
-
-        // Очередь 
-        var queue = new Queue<float>();
-
-        queue.Enqueue(1);
-        queue.Enqueue(2);
-        queue.Enqueue(3);
-
-        while (queue.Count > 0 )
-        {
-            Console.WriteLine(queue.Dequeue());
-        }
-
-        Console.WriteLine();
-
-        // Dictionary
-        // Нет индексатора
-        //var dictionary = new Dictionary<string, object>(); //string - тип ключа object - тип значения
-        var dictionary = new Dictionary<int, string>();
-        dictionary.Add(1, "One");
-        dictionary.Add(2, "Two");
-        dictionary.Add(3, "Three");
-        
-        // Установка значения с првоеркой на уникальность ключа
-        if (dictionary.TryAdd(3, "Three"))
-        {
-            Console.WriteLine("Success");
-        }
-        else
-        {
-            Console.WriteLine("Fail");
-        }
-
-        //Получаение значение с проверкой на уникальность ключа
-        if (dictionary.TryGetValue(2, out string value))
-        {
-            Console.WriteLine($"{value}");
-        }
-
-        //Вывод значения по ключу
-        Console.WriteLine(dictionary[1]);
-
-        //Обход элементов словаря 
-        foreach (var kvp in dictionary)
-        {
-            Console.WriteLine("key = {0} and value = {1}",kvp.Key,kvp.Value);
-        }
-
-        Console.WriteLine();
-
-        //HashSet
-        var hashSet = new HashSet<int>();
-        hashSet.Add(0);
-        hashSet.Add(1);
-
-        foreach (var hash in hashSet)
-        {
-            Console.WriteLine(hash);
-        }
-
-        hashSet.Add(1); // тут может возникнуть исключение
-
-        var xhashSet = new HashSet<Node>();
-        var xnode1 = new Node() { Value = 5 };
-        var xnode2 = new Node() { Value = 5 };
-        xhashSet.Add(xnode1); //Т.к. это объект, то он добавляется по ХэщКоду
-        xhashSet.Add(xnode2); //Т.к. это объект, то он добавляется по ХэщКоду
-        foreach (var xhash in xhashSet)
-        {
-            Console.WriteLine(xhash.Value);
         }
     }
 
