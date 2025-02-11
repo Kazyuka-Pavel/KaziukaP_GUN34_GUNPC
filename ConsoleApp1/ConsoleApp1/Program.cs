@@ -13,7 +13,7 @@ internal class Program
 {
     private class ListTask
     {
-        private List<string> listOfStrings = new List<string>(); // Тип данных любой
+        private List<string> listOfStrings = new List<string>();
                                             
         public void TaskLoop()
         {
@@ -58,7 +58,7 @@ internal class Program
 
     private class StudentsList
     {
-        private Dictionary<string, int> ListDictionary = new Dictionary<string, int>();
+        private Dictionary<string, int> listDictionary = new Dictionary<string, int>();
 
         public void TaskLoop()
         {
