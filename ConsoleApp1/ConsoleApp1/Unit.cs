@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -14,9 +15,9 @@ namespace ConsoleApp1
         private float health;
         public float Health { get { return health; } }
 
-        private int damage = 1;
-        public int Damage { get { return damage; } }
-
+        private Interval damage;
+        public int Damage { get { return damage.Get; } }
+        
         private float armor = 0.6f;
         public float Armor { get { return armor; } }
 
@@ -25,10 +26,8 @@ namespace ConsoleApp1
         public Unit() : this("Unknown Unit")
         {}
         public Unit(string name, int mindamage, int maxdamage) : this(name)
-        {
-            if (mindamage <= 0) mindamage = 0;
-            var interval = new Interval(mindamage, maxdamage);
-            this.damage = interval.Get();
+        {            
+            damage = new Interval(mindamage, maxdamage);      
         }
 
         public float GetRealHealth() 

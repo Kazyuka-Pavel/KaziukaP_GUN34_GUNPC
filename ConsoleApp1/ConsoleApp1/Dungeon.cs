@@ -12,12 +12,11 @@ namespace ConsoleApp1
 
         public Dungeon()
         {
-            var interval = new Interval(1,10);            
-
+            
             Rooms = new Room[] 
-            {   new Room(new Unit("Unit1",1,10), new Weapon("Weapon1", interval.Get(), interval.Get())), 
-                new Room(new Unit("Unit1",1,10), new Weapon("Weapon2", interval.Get(), interval.Get())),
-                new Room(new Unit("Unit1",1,10), new Weapon("Weapon3", interval.Get(), interval.Get())) 
+            {   new Room(new Unit("Unit1",9,0), new Weapon("Weapon1")), 
+                new Room(new Unit("Unit1",-9,-9), new Weapon("Weapon2",-10,2)),
+                new Room(new Unit("Unit1",0,0), new Weapon("Weapon3",1,15)) 
             };
 
         }

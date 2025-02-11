@@ -10,50 +10,26 @@ namespace ConsoleApp1
     {
         public string Name { get; }
 
-        private int MinDamage { get; set; }
-        private int MaxDamage { get; set; }
+        private Interval intervalDamage { get; set; }
 
         private float durability = 1;
 
         public float Durability { get { return durability; } }
 
-        public Weapon(string name) => this.Name = name;
+        public Weapon(string name)
+        {
+            this.Name = name;
+            intervalDamage = new Interval(0,0);
+        }
 
         public Weapon(string name, int minDamage, int maxDamage) : this(name)
         {
-            SetDamageParams(minDamage, maxDamage);
-        }
-
-        public void SetDamageParams(int minDamage, int maxDamage)
-        {
-            if (minDamage > maxDamage)
-            {
-                // меняем местами
-                minDamage = minDamage + maxDamage;
-                maxDamage = minDamage - maxDamage;
-                minDamage = minDamage - maxDamage;
-                Console.WriteLine("minDamage is more than maxDamage");
-            }
-
-            if (minDamage < 1)
-            {
-                minDamage = 1;
-                Console.WriteLine("Forced setting of the minimum value of minDamage");
-            }
-
-            if (maxDamage <= 1)
-            {
-                minDamage = 10;
-                Console.WriteLine("Forced setting of the minimum value of minDamage");
-            }
-
-            MinDamage = minDamage;
-            MaxDamage = maxDamage;
+            intervalDamage = new Interval(minDamage, maxDamage);
         }
 
         public int GetDamage()
         {
-            return (MinDamage + MaxDamage) / 2;
+            return (intervalDamage.Min + intervalDamage.Max) / 2;
         }
     }
 }
