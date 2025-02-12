@@ -13,3 +13,6 @@ E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debu
 E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
 E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
+E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\xunit.assert.dll
+E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.AssemblyReference.cache
+E:\workspace\pavel.kazyuka\KaziukaP_GUN34_GUNPC\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleA.CB28C8CC.Up2Date
