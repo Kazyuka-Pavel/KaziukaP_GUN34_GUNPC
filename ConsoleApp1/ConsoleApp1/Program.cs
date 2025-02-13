@@ -1,122 +1,87 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Xml;
-using System.Xml.Serialization;
+using System.Data.Common;
+
+
 
 internal class Program
 {
-    static string[] _categories = {"Numbers", "Animals"};
-    const string Value = "Const";
-
-    public static string XorEncrypt(string input, string key)
+    public abstract class Animal
     {
-        char[] data = input.ToCharArray();
-        char[] keyData = key.ToCharArray();
-        char[] result = new char[data.Length];
+        protected abstract string Name { get; init; }
 
-        for (int i = 0; i < data.Length; i++)
+        public Animal(string name) 
         {
-            result[i] = (char)(data[i] ^ keyData[i % keyData.Length]);
+            Name = name;
         }
+        public abstract void Move();
 
-        return new String(result);
+        public abstract void MakeSound();        
+
     }
 
-    public static string XorDecrypt(string input, string key)
+    public sealed class Cat : Animal
     {
-        // Дешифрование очень похоже на шифрование, поскольку XOR - это обратимая операция.
-        return XorEncrypt(input, key);
+        private readonly Random _random = new Random();
+
+        protected override string Name { get; init; }
+
+        public Cat(string name) : base(name) { }        
+
+         public override void Move()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name} Myawww!");
+        }
+
+        public void Jump()
+        {
+            Console.WriteLine($"{Name} Jump!!!");
+        }
+    }
+
+    public sealed class Dog : Animal
+    {
+        protected override string Name { get; init; }
+
+        public Dog(string name) : base(name) { }
+
+        public override void Move()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name} Wooof!");
+        }
+
     }
 
     private static void Main(string[] args)
     {
-        // String 
-        var myStr = "My String\n";
-        var c = myStr.Insert(3,"First "); // вставить
-        string[] a = myStr.Split(' '); // разбить 
-        var b = myStr.Substring(6, 2); // вырезать
-        Console.WriteLine(myStr);
-        Console.WriteLine(b);
-        Console.WriteLine(c);
-        Console.WriteLine(c + b);
 
-        Console.WriteLine();
+        var cat = new Cat("Barsil");
+        WorkWithAnimal(cat);
+        var dog = new Dog("Sharik");
+        WorkWithAnimal(dog);
+    }
 
-        // Char
-        var d = 'f';
-        
-        Console.WriteLine(char.IsLetter(d));
-        Console.WriteLine(char.GetNumericValue(d));
-
-        Console.WriteLine();
-
-        // Регулярные выражения
-        var reg = "[a-z]";
-        var rx = new Regex(reg);
-        Console.WriteLine(rx.IsMatch("asd"));
-        Console.WriteLine(rx.IsMatch("123"));
-
-        Console.WriteLine();
-
-        // StringBuilder
-        var str1 = "Hello";
-        var str2 = "World";
-        var str3 = String.Empty;
-        var builder = new StringBuilder();
-        builder.Append(str1);
-        builder.Append(' ');
-        builder.Append(str2); 
-        builder.Append(str3);
-        Console.WriteLine(builder.ToString());
-
-        Console.WriteLine();
-
-        // 
-        string originalText = "Привет, мир!";
-        string key = "757f87f87343dffdf3g";
-        string encryptedText = XorEncrypt(originalText, key);
-        Console.WriteLine($"Зашифрованный текст: {encryptedText}");
-
-        string decryptedText = XorDecrypt(encryptedText, key);
-        Console.WriteLine($"Расшифрованный текст: {decryptedText}");
-
-        // Викторина 
-        var categories = new Dictionary<int, string>
+    static void WorkWithAnimal(Animal animal)
+    {
+        animal.MakeSound();
+        var dog = animal as Dog; // Попытка приведения animal к dog
+        //var dog = (Dog)animal; - вызовет ошибку, хотя можно сделать такое преобразование
+        if (dog == null)
         {
-            {1, _categories[0]},
-            {2, _categories[1]}
-        };
-
-        var categoryQuestions = new Dictionary<int, Dictionary<string, string>>();
-        var questions = new Dictionary<string, string>() { { "PI?", "3.14" } };
-
-        categoryQuestions.Add(1,questions);
-        Console.WriteLine("Select categoty 1 or 2");
-        var selected = int.Parse(Console.ReadLine());
-        Console.WriteLine($"Your category {categories[selected]}");
-        var result = categoryQuestions[selected];
-        foreach (var category in result)
-        {           
-            Console.WriteLine(category.Key);
-            int attempst = 0;
-            while (true)
+            if (animal is Cat cat) //Является ли абстаркция экземпляром класса Сat
             {
-                var answer = Console.ReadLine();
-                attempst++;
-                if (attempst >= 3 || answer  == category.Value )
-                {
-                    break;
-                }
+                cat.Jump();
             }
-            if( attempst <= 3)
-            {
-                Console.WriteLine("you won");
-            }            
-            break;
-        }
-        
+        }        
     }
 }
