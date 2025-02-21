@@ -32,7 +32,8 @@ namespace GamePrototype.Game
         private void StartGameLoop()
         {
             var currentRoom = _dungeon;
-            
+            DungeonRoom nextRoom;
+
             while (currentRoom.IsFinal == false) 
             {
                 StartRoomEncounter(currentRoom, out var success);
@@ -44,12 +45,19 @@ namespace GamePrototype.Game
                 DisplayRouteOptions(currentRoom);
                 while (true) 
                 {
-                    if (Enum.TryParse<Direction>(Console.ReadLine(), out var direction) ) 
+                    if (Enum.TryParse<Direction>(Console.ReadLine(), out var direction))
                     {
-                        currentRoom = currentRoom.Rooms[direction];
-                        break;
+                        if (currentRoom.Rooms.ContainsKey(direction))
+                        {
+                            currentRoom = currentRoom.Rooms[direction];
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Wrong direction!");
+                        }
                     }
-                    else 
+                    else
                     {
                         Console.WriteLine("Wrong direction!");
                     }

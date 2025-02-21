@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/6RKC1MsqthY9oVQlWhuF6ZlHx/wu9uOMk+KdDDxiXzbiE5TO8WvOEN39UE7Q3SbEJZJbscJSgrrgts4AsAVrQ==",
+  "dgSpecHash": "HSSOHZU0awg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\GamePrototype\\GamePrototype.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\GamePrototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pvlp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\pvlp\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\pvlp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\pvlp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
