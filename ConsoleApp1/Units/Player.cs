@@ -51,7 +51,7 @@ namespace GamePrototype.Units
             {
                 Health += healthPotion.HealthRestore;
             }
-        }
+        }        
 
         protected override uint CalculateAppliedDamage(uint damage)
         {
@@ -74,6 +74,25 @@ namespace GamePrototype.Units
                 builder.AppendLine($"[{items[i].Name}] : {items[i].Amount}");
             }
             return builder.ToString();
+        }
+
+        protected override void DamageReceiveHandler() //переопределил для Player для снижения брони на -1
+        {
+            if (_equipment.TryGetValue(EquipSlot.Armour, out var item) && item is Armour armor)
+            {
+                item.ReduceDurability(GameConstants.DeltaDurArmor);
+                Console.WriteLine($"Armor durability has been reduced, remains:{armor.Durability}");
+            }
+            if (_equipment.TryGetValue(EquipSlot.Weapon, out item) && item is Weapon weapon)
+            {
+                item.ReduceDurability(GameConstants.DeltaDurArmor);
+                Console.WriteLine($"Weapon durability has been reduced, remains:{weapon.Durability}");
+            }
+        }
+
+        public override void GoToInventory()
+        {
+            Inventory.ViewInventory();
         }
     }
 }

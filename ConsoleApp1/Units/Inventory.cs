@@ -1,4 +1,5 @@
-﻿using GamePrototype.Items.EconomicItems;
+﻿using System;
+using GamePrototype.Items.EconomicItems;
 
 namespace GamePrototype.Units
 {
@@ -31,5 +32,14 @@ namespace GamePrototype.Units
             return true;
         }
 
+        public void ViewInventory()
+        {
+            Console.WriteLine("Your inventory: ");
+            foreach (var item in _items)
+            {
+                
+                Console.WriteLine($"{_items.IndexOf(item) + 1}. {item.Name} - {item.Amount}");
+            }
+        }
     }
 }

@@ -1,4 +1,6 @@
-﻿using GamePrototype.Combat;
+﻿using System;
+using System.Numerics;
+using GamePrototype.Combat;
 using GamePrototype.Dungeon;
 using GamePrototype.Units;
 using GamePrototype.Utils;
@@ -32,7 +34,7 @@ namespace GamePrototype.Game
         private void StartGameLoop()
         {
             var currentRoom = _dungeon;
-            DungeonRoom nextRoom;
+            string? line;
 
             while (currentRoom.IsFinal == false) 
             {
@@ -44,8 +46,9 @@ namespace GamePrototype.Game
                 }
                 DisplayRouteOptions(currentRoom);
                 while (true) 
-                {
-                    if (Enum.TryParse<Direction>(Console.ReadLine(), out var direction))
+                {                    
+                    line = Console.ReadLine();
+                    if (Enum.TryParse<Direction>(line, out var direction))
                     {
                         if (currentRoom.Rooms.ContainsKey(direction))
                         {
@@ -57,8 +60,12 @@ namespace GamePrototype.Game
                             Console.WriteLine("Wrong direction!");
                         }
                     }
-                    else
+                    else if (line != null && line.ToLowerInvariant().Equals("i"))
                     {
+                        _player.GoToInventory();
+                    }
+                    else
+                    {                    
                         Console.WriteLine("Wrong direction!");
                     }
                 }
@@ -77,6 +84,7 @@ namespace GamePrototype.Game
             }
             if (currentRoom.Enemy != null) 
             {
+                Console.WriteLine($"You have met {currentRoom.Enemy.Name}. The battle begins");
                 if (_combatManager.StartCombat(_player, currentRoom.Enemy) == _player)
                 {
                     _player.HandleCombatComplete();
@@ -100,7 +108,9 @@ namespace GamePrototype.Game
             foreach (var room in currentRoom.Rooms)
             {
                 Console.Write($"{room.Key} - {(int) room.Key}\t");
+                
             }
+            Console.WriteLine(" i - inventory");
         }
 
         

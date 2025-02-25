@@ -1,4 +1,6 @@
 ﻿using GamePrototype.Items.EconomicItems;
+using GamePrototype.Items.EquipItems;
+using GamePrototype.Utils;
 
 namespace GamePrototype.Units
 {
@@ -70,5 +72,7 @@ namespace GamePrototype.Units
                 }
             }
         }
+
+        public virtual void GoToInventory() { }
     }
 }

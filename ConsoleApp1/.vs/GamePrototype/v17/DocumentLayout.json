@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +43,52 @@
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +98,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EquipItem.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\EquipItem.cs",
-              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\EquipItem.cs",
-              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Player.cs",
+              "RelativeDocumentMoniker": "Units\\Player.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Player.cs",
+              "RelativeToolTip": "Units\\Player.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:24.928Z",
+              "WhenOpened": "2025-02-21T20:14:41.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DungeonBuilder.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\DungeonBuilder.cs",
+              "RelativeDocumentMoniker": "Utils\\DungeonBuilder.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\DungeonBuilder.cs",
+              "RelativeToolTip": "Utils\\DungeonBuilder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:25:54.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Game\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Game\\GameLoop.cs",
+              "RelativeToolTip": "Game\\GameLoop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:26:09.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Weapon.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\Weapon.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:25:42.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Armour.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\Armour.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\Armour.cs",
@@ -99,12 +166,38 @@
               "RelativeToolTip": "Items\\EquipItems\\Armour.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:23.823Z",
+              "WhenOpened": "2025-02-21T20:25:38.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Unit.cs",
+              "RelativeDocumentMoniker": "Units\\Unit.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Unit.cs",
+              "RelativeToolTip": "Units\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T19:31:08.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Goblin.cs",
+              "RelativeDocumentMoniker": "Units\\Goblin.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Goblin.cs",
+              "RelativeToolTip": "Units\\Goblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:15:13.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HealthPotion.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\HealthPotion.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\HealthPotion.cs",
@@ -112,12 +205,12 @@
               "RelativeToolTip": "Items\\EconomicItems\\HealthPotion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:22.144Z",
+              "WhenOpened": "2025-02-25T03:41:40.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EconomicItem.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\EconomicItem.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\EconomicItem.cs",
@@ -125,159 +218,90 @@
               "RelativeToolTip": "Items\\EconomicItems\\EconomicItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:19.159Z",
+              "WhenOpened": "2025-02-25T03:27:27.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Gold.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Gold.cs",
-              "RelativeDocumentMoniker": "Items\\EconomicItems\\Gold.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Gold.cs",
-              "RelativeToolTip": "Items\\EconomicItems\\Gold.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EquipItem.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:17.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EquipSlot.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\EquipSlot.cs",
-              "RelativeDocumentMoniker": "Utils\\EquipSlot.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\EquipSlot.cs",
-              "RelativeToolTip": "Utils\\EquipSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:49:53.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DungeonBuilder.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\DungeonBuilder.cs",
-              "RelativeDocumentMoniker": "Utils\\DungeonBuilder.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\DungeonBuilder.cs",
-              "RelativeToolTip": "Utils\\DungeonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:41:07.172Z",
+              "WhenOpened": "2025-02-21T20:25:30.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameLoop.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Game\\GameLoop.cs",
-              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Game\\GameLoop.cs",
-              "RelativeToolTip": "Game\\GameLoop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:32:34.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DungeonRoom.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\DungeonRoom.cs",
-              "RelativeDocumentMoniker": "Dungeon\\DungeonRoom.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\DungeonRoom.cs",
-              "RelativeToolTip": "Dungeon\\DungeonRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:40:32.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Direction.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\Direction.cs",
-              "RelativeDocumentMoniker": "Dungeon\\Direction.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\Direction.cs",
-              "RelativeToolTip": "Dungeon\\Direction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:39:16.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\Item.cs",
-              "RelativeDocumentMoniker": "Items\\Item.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\Item.cs",
-              "RelativeToolTip": "Items\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:09.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Grindstone.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Grindstone.cs",
-              "RelativeDocumentMoniker": "Items\\EconomicItems\\Grindstone.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Grindstone.cs",
-              "RelativeToolTip": "Items\\EconomicItems\\Grindstone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:50:20.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UnitFactoryDemo.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\UnitFactoryDemo.cs",
               "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
               "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\UnitFactoryDemo.cs",
               "RelativeToolTip": "Utils\\UnitFactoryDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:49:38.278Z",
+              "WhenOpened": "2025-02-21T20:57:48.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Inventory.cs",
+              "RelativeDocumentMoniker": "Units\\Inventory.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Inventory.cs",
+              "RelativeToolTip": "Units\\Inventory.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:50:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GameConstants.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\GameConstants.cs",
               "RelativeDocumentMoniker": "Utils\\GameConstants.cs",
               "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\GameConstants.cs",
               "RelativeToolTip": "Utils\\GameConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:49:48.46Z",
+              "WhenOpened": "2025-02-21T20:31:27.154Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Unit.cs",
-              "RelativeDocumentMoniker": "Units\\Unit.cs",
-              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Units\\Unit.cs",
-              "RelativeToolTip": "Units\\Unit.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:31:08.042Z",
+              "WhenOpened": "2025-02-22T18:35:42.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Combat\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Combat\\CombatManager.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Combat\\CombatManager.cs",
+              "RelativeToolTip": "Combat\\CombatManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:28:01.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -285,7 +309,85 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:30:49.16Z",
+              "WhenOpened": "2025-02-21T20:26:04.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EquipSlot.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\EquipSlot.cs",
+              "RelativeDocumentMoniker": "Utils\\EquipSlot.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Utils\\EquipSlot.cs",
+              "RelativeToolTip": "Utils\\EquipSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:24:04.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gold.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Gold.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\Gold.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Gold.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\Gold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:54:00.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DungeonRoom.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\DungeonRoom.cs",
+              "RelativeDocumentMoniker": "Dungeon\\DungeonRoom.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\DungeonRoom.cs",
+              "RelativeToolTip": "Dungeon\\DungeonRoom.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:27:54.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\Direction.cs",
+              "RelativeDocumentMoniker": "Dungeon\\Direction.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Dungeon\\Direction.cs",
+              "RelativeToolTip": "Dungeon\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:27:59.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RockPaperScissors.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Combat\\RockPaperScissors.cs",
+              "RelativeDocumentMoniker": "Combat\\RockPaperScissors.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Combat\\RockPaperScissors.cs",
+              "RelativeToolTip": "Combat\\RockPaperScissors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:53:40.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Grindstone.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Grindstone.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\Grindstone.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\Items\\EconomicItems\\Grindstone.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\Grindstone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:25:47.374Z",
               "EditorCaption": ""
             }
           ]

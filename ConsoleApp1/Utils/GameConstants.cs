@@ -2,9 +2,10 @@
 {
     public static class GameConstants
     {
-        public static string Gold = "Gold";
-        public static string HealthPotion = "Health Potion";
-        public static string Grindstone = nameof(Grindstone);
-        public static string Goblin = nameof(Goblin);
+        public static string    Gold = "Gold";
+        public static string    HealthPotion = "Health Potion";
+        public static string    Grindstone = nameof(Grindstone);
+        public static string    Goblin = nameof(Goblin);
+        public static uint      DeltaDurArmor = 1; // Количество пунктов, которые броня теряет при получении урона 
     }
 }
