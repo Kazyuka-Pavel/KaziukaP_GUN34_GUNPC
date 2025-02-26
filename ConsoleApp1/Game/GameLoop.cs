@@ -34,7 +34,6 @@ namespace GamePrototype.Game
         private void StartGameLoop()
         {
             var currentRoom = _dungeon;
-            string? line;
 
             while (currentRoom.IsFinal == false) 
             {
@@ -47,8 +46,7 @@ namespace GamePrototype.Game
                 DisplayRouteOptions(currentRoom);
                 while (true) 
                 {                    
-                    line = Console.ReadLine();
-                    if (Enum.TryParse<Direction>(line, out var direction))
+                    if (Enum.TryParse<Direction>(Console.ReadLine(), out var direction))
                     {
                         if (currentRoom.Rooms.ContainsKey(direction))
                         {
@@ -59,11 +57,7 @@ namespace GamePrototype.Game
                         {
                             Console.WriteLine("Wrong direction!");
                         }
-                    }
-                    else if (line != null && line.ToLowerInvariant().Equals("i"))
-                    {
-                        _player.GoToInventory();
-                    }
+                    }          
                     else
                     {                    
                         Console.WriteLine("Wrong direction!");
@@ -110,7 +104,6 @@ namespace GamePrototype.Game
                 Console.Write($"{room.Key} - {(int) room.Key}\t");
                 
             }
-            Console.WriteLine(" i - inventory");
         }
 
         

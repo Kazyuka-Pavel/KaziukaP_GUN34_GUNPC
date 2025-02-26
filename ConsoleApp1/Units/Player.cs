@@ -51,6 +51,24 @@ namespace GamePrototype.Units
             {
                 Health += healthPotion.HealthRestore;
             }
+            if (economicItem is Grindstone grindstone)
+            {
+                EquipItem equipForRepair = null;
+                foreach (var equip in _equipment)
+                {
+                    if (equip.Value is EquipItem weapon)
+                    {
+                        if (equipForRepair == null || equipForRepair.Durability > weapon.Durability)
+                        {
+                            equipForRepair = weapon;
+                        }
+                    }
+                }
+                if (equipForRepair != null)
+                {
+                    equipForRepair.Repair(grindstone.GrindRestore);
+                };
+            }
         }        
 
         protected override uint CalculateAppliedDamage(uint damage)
@@ -76,23 +94,18 @@ namespace GamePrototype.Units
             return builder.ToString();
         }
 
-        protected override void DamageReceiveHandler() //переопределил для Player для снижения брони на -1
+        protected override void DamageReceiveHandler() //переопределил для Player для снижения прочности на -1
         {
             if (_equipment.TryGetValue(EquipSlot.Armour, out var item) && item is Armour armor)
             {
                 item.ReduceDurability(GameConstants.DeltaDurArmor);
-                Console.WriteLine($"Armor durability has been reduced, remains:{armor.Durability}");
+                Console.WriteLine($"{armor.Name} durability has been reduced, remains:{armor.Durability}");
             }
             if (_equipment.TryGetValue(EquipSlot.Weapon, out item) && item is Weapon weapon)
             {
                 item.ReduceDurability(GameConstants.DeltaDurArmor);
-                Console.WriteLine($"Weapon durability has been reduced, remains:{weapon.Durability}");
+                Console.WriteLine($"{weapon.Name} durability has been reduced, remains:{weapon.Durability}");
             }
-        }
-
-        public override void GoToInventory()
-        {
-            Inventory.ViewInventory();
         }
     }
 }

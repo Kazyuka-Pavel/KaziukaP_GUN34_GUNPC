@@ -35,34 +35,5 @@ namespace GamePrototype.Units
             return true;
         }
 
-        public void ViewInventory()
-        {
-            string? line;
-            int number;
-
-            Console.WriteLine("(select the number to use or press q)");
-            Console.WriteLine("Your inventory: ");            
-            foreach (var item in _items)
-            {
-                
-                Console.WriteLine($"{_items.IndexOf(item) + 1}. {item.Name} - {item.Amount}");
-            }
-            while (true)
-            {
-                line = Console.ReadLine();
-                if (int.TryParse(line, out number) && number - 1 >= _items.Count)
-                {
-                    // Механика использвоания
-                }
-                else if (line != null && line.ToLowerInvariant().Equals("q"))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Wrong direction!");
-                }
-            }
-        }
     }
 }
