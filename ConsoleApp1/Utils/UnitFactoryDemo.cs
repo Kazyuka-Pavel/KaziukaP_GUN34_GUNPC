@@ -1,5 +1,8 @@
-﻿using GamePrototype.Items.EconomicItems;
+﻿using System.Numerics;
+using GamePrototype.Items.EconomicItems;
 using GamePrototype.Items.EquipItems;
+using GamePrototype.Items.EquipItems.Armours;
+using GamePrototype.Items.EquipItems.Weapons;
 using GamePrototype.Units;
 
 namespace GamePrototype.Utils
@@ -9,12 +12,18 @@ namespace GamePrototype.Utils
         public static Unit CreatePlayer(string name)
         {
             var player = new Player(name, 30, 30, 6);
-            player.AddItemToInventory(new Weapon(10, 15, "Sword"));
-            player.AddItemToInventory(new Armour(10, 15, "Armour"));
-            player.AddItemToInventory(new HealthPotion("Potion"));
+            player.AddItemToInventory(new MeleeWeapon(10, 15, "Sword"),true);
+            player.AddItemToInventory(new Сuirass(10, 15, "Armour"), true);
+            player.AddItemToInventory(new HealthPotion("Potion"), true);
             return player;
         }
 
-        public static Unit CreateGoblinEnemy() => new Goblin(GameConstants.Goblin, 18, 18, 2);
+        public static Unit CreateGoblinEnemy()
+        {
+            var goblin = new Goblin(GameConstants.Goblin, 18, 18, 2);
+            goblin.AddItemToInventory(new RangeWeapon(10, 15, "Bow"), true);
+            goblin.AddItemToInventory(new Helmet(10, 15, "Helmet"), true);
+            return goblin;
+        }
     }
 }

@@ -16,7 +16,10 @@ namespace GamePrototype.Units
         public uint Health
         {
             get => _health;
-            protected set => _health = value;
+            protected set 
+            {
+                _health = value > _maxHealth ? _maxHealth : value;
+            }
         }
 
         public uint MaxHealth => _maxHealth;
@@ -51,14 +54,24 @@ namespace GamePrototype.Units
         
         public abstract uint GetUnitDamage();
 
+        protected virtual void DamageHandler(Weapon weapon) { }
+
         public abstract void HandleCombatComplete();
 
-        public virtual void AddItemToInventory(Item item) 
+        public virtual void AddItemToInventory(Item item, bool start = false) 
         {
-            if (!Inventory.TryAdd(item)) 
+            if (!Inventory.TryAdd(item))
             {
                 Console.WriteLine($"Inventory of {Name} is full");
             }
+            else
+            {
+                if (!start)
+                {
+                    Console.WriteLine($"{Name} add to inventory {item.Name}");
+                }                
+            }
+
         }
 
         public void AddItemsFromUnitToInventory(Unit unit)
