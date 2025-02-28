@@ -12,8 +12,9 @@ namespace GamePrototype.Utils
         public static Unit CreatePlayer(string name)
         {
             var player = new Player(name, 30, 30, 6);
-            player.AddItemToInventory(new MeleeWeapon(10, 15, "Sword"),true);
-            player.AddItemToInventory(new Сuirass(10, 15, "Armour"), true);
+            player.AddItemToInventory(new MeleeWeapon(10, 15, "Sword 10"),true);
+            player.AddItemToInventory(new Сuirass(10, 15, "Armour 10"), true);
+            player.AddItemToInventory(new Helmet(5, 15, "Helmet 5"), true);            
             player.AddItemToInventory(new HealthPotion("Potion"), true);
             return player;
         }
@@ -21,8 +22,8 @@ namespace GamePrototype.Utils
         public static Unit CreateGoblinEnemy()
         {
             var goblin = new Goblin(GameConstants.Goblin, 18, 18, 2);
-            goblin.AddItemToInventory(new RangeWeapon(10, 15, "Bow"), true);
-            goblin.AddItemToInventory(new Helmet(10, 15, "Helmet"), true);
+            goblin.AddItemToInventory(new RangeWeapon(10, 15, "Bow 10"), true);
+            goblin.AddItemToInventory(new Helmet(10, 15, "Helmet 10"), true);
             return goblin;
         }
     }

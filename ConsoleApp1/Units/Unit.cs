@@ -78,11 +78,7 @@ namespace GamePrototype.Units
         {
             for (int i = 0; i < unit.Inventory.Items.Count; i++) 
             {
-                if (!Inventory.TryAdd(unit.Inventory.Items[i])) 
-                {
-                    //inventory is full
-                    return;
-                }
+                AddItemToInventory(unit.Inventory.Items[i]);                
             }
         }
 

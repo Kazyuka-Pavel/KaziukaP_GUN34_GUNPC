@@ -66,9 +66,9 @@ namespace GamePrototype.Units
                         Console.WriteLine($"{weaponValue.Name} was thrown away");
                     }
                 }
-                else if (equipmentValue is Armour armourValue)
+                else if (equipmentValue is Armour armourValue && equipItem is Armour armorItem)
                 {
-                    if (armourValue.Defence > armourValue.Defence)
+                    if (armourValue.Defence > armorItem.Defence)
                     {
                         _equipment.Remove(equipItem.Slot);
                         Console.WriteLine($"{armourValue.Name} was thrown away");
