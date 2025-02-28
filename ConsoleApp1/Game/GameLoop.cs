@@ -4,6 +4,8 @@ using GamePrototype.Combat;
 using GamePrototype.Dungeon;
 using GamePrototype.Units;
 using GamePrototype.Utils;
+using GamePrototype.Utils.DungeonBuilders;
+using GamePrototype.Utils.UnitFactoryDemos;
 
 namespace GamePrototype.Game
 {
@@ -12,7 +14,9 @@ namespace GamePrototype.Game
         private Unit _player;
         private DungeonRoom _dungeon;
         private readonly CombatManager _combatManager = new CombatManager();
-        
+        private DungeonBuilder _dungeonBuilder;
+        private UnitFactoryDemo _unitFactoryDemo;
+
         public void StartGame() 
         {
             Initialize();
@@ -23,12 +27,36 @@ namespace GamePrototype.Game
         #region Game Loop
 
         private void Initialize()
-        {
+        {            
             Console.WriteLine("Welcome, player!");
-            _dungeon = DungeonBuilder.BuildDungeon();
+            GetDungeonMode();
+            _dungeon = _dungeonBuilder.BuildDungeon(_unitFactoryDemo);
             Console.WriteLine("Enter your name");
-            _player = UnitFactoryDemo.CreatePlayer(Console.ReadLine());
+            _player = _unitFactoryDemo.CreatePlayer(Console.ReadLine());
             Console.WriteLine($"Hello {_player.Name}");
+        }
+
+        private void GetDungeonMode()
+        {
+            while (true)
+            {
+                Console.WriteLine($"Enter dungeon mode: {(int)GameMode.Easy} - {GameMode.Easy}, {(int)GameMode.Hard} - {GameMode.Hard}");
+                if (Enum.TryParse<GameMode>(Console.ReadLine(), out var gameMode))
+                {
+                    if(gameMode == GameMode.Easy)
+                    {
+                        _dungeonBuilder = new DungeonBuilderEasy();
+                        _unitFactoryDemo = new UnitFactoryDemoEasy();
+                        return;
+                    }
+                    else if (gameMode == GameMode.Hard)
+                    {
+                        _dungeonBuilder = new DungeonBuilderHard();
+                        _unitFactoryDemo = new UnitFactoryDemoHard();
+                        return;
+                    }
+                }                
+            }                
         }
 
         private void StartGameLoop()
