@@ -1,7 +1,16 @@
-﻿namespace ConsoleApp1
+﻿using System.Data.SqlTypes;
+
+namespace ConsoleApp1
 {
+    public delegate void DelegateAndEvents<T>(T param) where T : struct; //органичение типа
+
+
     public class Test
     {
+        public event DelegateAndEvents<int> Event;
+
+        //public event DelegateAndEvents<object> Event2;
+
         public void ActionTest(Action action)
         {
             action?.Invoke(); // ? - спец оператор, который позволяет проверить ссылку на null, если есть ссылка, то выховет, в противном случае - нет
@@ -17,6 +26,14 @@
             if (predicate?.Invoke(param) == true)
             {
                 Console.WriteLine("TRUE!");
+            }
+        }
+
+        public void EventInvoker(int param)
+        {
+            if (param > 0)
+            {
+                Event.Invoke(param);
             }
         }
     }
@@ -35,6 +52,12 @@
             // Предикат 
             var test1 = new Test();
             test1.Predicatetest((int param) => param > 5, 13);
+
+            //Generics
+            var test2 = new Test();
+            test2.Event += (int param) => Console.WriteLine(param);
+            test2.EventInvoker(-5);
+            test2.EventInvoker(5);
         }
     }
 }
