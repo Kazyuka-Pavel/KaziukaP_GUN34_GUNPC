@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD2F075E-DCB3-49D9-B1EC-0421C69DC5F4}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD2F075E-DCB3-49D9-B1EC-0421C69DC5F4}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|e:\\workspace\\pavel.kazyuka\\kaziukap_gun34_gunpc\\consoleapp1\\consoleapp1\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E3FA87-2A96-4D79-909B-7C3002BB9533}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +30,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Weapon.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Weapon.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Weapon.cs",
+              "RelativeToolTip": "ConsoleApp1\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:13:11.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dummy.cs",
+              "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Dummy.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Dummy.cs",
+              "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Dummy.cs",
+              "RelativeToolTip": "ConsoleApp1\\Dummy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:01:22.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "E:\\workspace\\pavel.kazyuka\\KaziukaP_GUN34_GUNPC\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwDUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T05:20:50.714Z",
+              "WhenOpened": "2025-03-15T06:49:25.125Z",
               "EditorCaption": ""
             }
           ]
